@@ -1,0 +1,73 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,html{
+  height: 100%;
+  width: 100%;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main{
+ height: 600px;
+ width: 500px;
+ background-color: rgb(175, 214, 68);
+ 
+}
+#msg{
+  height: 90%;
+  width: 100%;
+  background-color: rgb(175, 214, 68);
+  padding: 7px;
+}
+#msg .username{
+  font-size: 10px;
+}
+#bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10%;
+ 
+}
+#bottom input{
+  /* width: 130%; */
+  width: 100%;
+  height: 100%;
+  padding: 18px 10px;
+}
+#bottom button{
+  width: 10%;
+  height: 100%;
+  margin-right: 3px;
+ 
+}
+#left{
+  width: fit-content;
+  background-color: rgb(243, 231, 233);
+  margin-bottom: 5px;
+  border-radius: 10px;
+
+  padding: 5px 8px;
+}
+#right{
+  width: fit-content;
+  background-color: rgb(243, 231, 233);
+  border-radius: 10px;
+  margin-left: auto;
+  padding: 5px  8px;
+}
+#room{
+  position: absolute;
+  left: 45%;
+  top: 5%;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: rgb(243, 231, 233);
+}
